@@ -1,0 +1,122 @@
+/*import a font from a local map*/
+@font-face {
+    font-family: 'Fondamento';
+    src: url('./assignment/fonts/Fondamento/Fondamento-Regular.ttf');
+} 
+@font-face {
+    font-family: 'Fondamento1';
+    src: url('/assignment/fonts/Fondamento/Fondamento-Italic.ttf');
+} 
+
+body{
+    background-color: #E2E2D2;
+    font-family: 'Fondamento';
+}
+
+h2{
+    font-family: 'Fondamento';
+    font-size: 30px;
+}
+
+h1{
+    font-family: 'Fondamento1';
+    font-size: 40px;
+}
+
+.header-container{
+    width: 522px;
+    height: 164px;
+    margin: 0 auto;
+ 
+}
+.title{
+    /*make it so every word starts a new 
+sentence */
+    text-transform: capitalize;
+    text-align: center;
+    font-family: 'Fondamento1';
+    margin-left: 40%;
+    margin-right: 40%;
+    
+}
+
+.main-container{
+    display: flex;
+    flex-wrap: wrap;
+    
+    width: 984px;
+    margin: 0 auto;
+}
+
+
+.student-info{
+    width: 676px;
+    height: 280px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+.main-img{
+    width: 984px;
+    height: 600px;
+    margin: 0 auto;
+}
+
+.sub-img-1{
+    width: 522px;
+    height: 500px;
+    margin-top: 50px;
+    margin-bottom: 25px;
+    margin-right: 47px;
+}
+
+.sub-img-2{
+    width: 368px;
+    height: 360px;
+    margin-top: 120px;
+    margin-bottom: 50px;
+    margin-left: 47px;
+}
+
+.sub-img-3{
+    width: 368px;
+    height: 500px;
+    margin-top: 25px;
+    margin-bottom: 50px;
+}
+
+.sub-img-4{
+    width: 522px;
+    height: 334px;
+    margin-top: 108px;
+    margin-bottom: 50px;
+    margin-left: 94px;
+}
+
+.footer-container{
+    display: flex;
+    flex-wrap: wrap;
+    width: 984px;
+    margin: 0 auto;
+    font-family: 'Fondamento';
+}
+
+.footer-container-box{
+    width: 445px;
+    height: 246px;
+}
+
+.footer-title{
+    color: #76763B;
+}
+
+.footer-text{
+    color: #76763B;
+    font-size: 30px;
+    display: inline;
+}
+
+.footer-img{
+    display: inline;
+}
